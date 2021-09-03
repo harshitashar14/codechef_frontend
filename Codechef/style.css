@@ -1,0 +1,88 @@
+* {
+  padding: 0px;
+}
+@-ms-viewport {
+  width: device-width;
+}
+.bodyBox {
+  margin: 0px;
+  margin-right: 100px;
+  padding: 0px;
+  width: 550%;
+  display: grid;
+
+  grid-template-columns: 1fr;
+  background-color: rgb(237, 245, 245);
+  overflow: hidden;
+}
+
+.background {
+  margin: auto;
+
+  background-color: rgb(237, 245, 245);
+  width: 1515px;
+  height: 1700px;
+}
+.bodyBox #box {
+  width: 1000px;
+  height: 1000px;
+  margin: auto;
+  display: inline-block;
+  float: none;
+  border: 2px solid black;
+
+  /* margin-left: 230px; */
+}
+.heading {
+  background-color: rgb(225, 236, 236);
+  padding: 0px;
+  margin-top: 0px;
+  margin: 0px;
+}
+.table {
+  align-content: center;
+  width: 1000px;
+  margin: auto;
+
+  align-items: center;
+
+  border-collapse: collapse;
+}
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  max-width: 23120px;
+}
+.table-striped {
+  border-collapse: collapse;
+}
+.navbar-brand {
+  font-size: 35px;
+}
+thead {
+  display: inline-block;
+  width: 995px;
+}
+tbody {
+  height: 430px;
+  display: inline-block;
+  width: 1000px;
+  overflow: auto;
+  box-shadow: -3px -3px rgb(209, 208, 207);
+  background-color: rgb(250, 255, 255);
+}
+td {
+  width: 330px;
+}
+th {
+  width: 400px;
+  padding: 0px;
+  margin: 0px;
+}
+#siteName {
+  font-family: "Hina Mincho", serif;
+  font-weight: bold;
+}
